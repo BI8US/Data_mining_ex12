@@ -13,8 +13,6 @@ from datetime import date
 st.set_page_config(layout="wide", page_title="Energy Consumption Analysis")
 
 st.title("Electricity Consumption Patterns Visualizer")
-st.write("This application helps you explore recurring patterns in electricity consumption data from TalTech API.")
-
 
 # --- Data Loading Function with Caching ---
 @st.cache_data
